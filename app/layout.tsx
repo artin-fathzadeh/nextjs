@@ -4,6 +4,16 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
+interface Metadata {
+  title: string;
+  description: string;
+}
+
+export const metadata: Metadata = {
+  title: "Genclude",
+  description: "Genclude Dashboard",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
