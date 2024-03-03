@@ -11,7 +11,7 @@ export function Chat() {
           <div className="flex h-[60px] items-center border-b px-6">
             <Link className="flex items-center gap-2 font-semibold" href="#">
               <Package2Icon className="h-6 w-6" />
-              <span className="">Preview</span>
+              <span className=""></span>
             </Link>
             <Button className="ml-auto h-8 w-8" size="icon" variant="outline">
               <BellIcon className="h-4 w-4" />
@@ -125,7 +125,7 @@ export function Chat() {
 function Package2Icon(props: any) {
   return (
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="51.2pt" height="16.56pt" viewBox="0 0 640 207.000000"
+ width="102.4pt" height="33.12pt" viewBox="0 0 640 207.000000"
  preserveAspectRatio="xMidYMid meet">
 
 <g transform="translate(0.000000,207.000000) scale(0.100000,-0.100000)"
