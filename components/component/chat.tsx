@@ -1,4 +1,3 @@
-
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { DropdownMenuTrigger, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuItem, DropdownMenuContent, DropdownMenu } from "@/components/ui/dropdown-menu"
@@ -87,7 +86,7 @@ export function Chat() {
                   alt="Avatar"
                   className="rounded-full"
                   height="32"
-                  src="/placeholder.svg"
+                  src="@/avatar.svg"
                   style={{
                     aspectRatio: "32/32",
                     objectFit: "cover",
@@ -123,9 +122,10 @@ export function Chat() {
 }
 
 
-function Package2Icon(props) {
+function Package2Icon(props: any) {
   return (
     <svg
+      {...props}
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
@@ -144,7 +144,7 @@ function Package2Icon(props) {
 }
 
 
-function BellIcon(props) {
+function BellIcon(props: any) {
   return (
     <svg
       {...props}
@@ -165,7 +165,7 @@ function BellIcon(props) {
 }
 
 
-function HomeIcon(props) {
+function HomeIcon(props: any) {
   return (
     <svg
       {...props}
@@ -186,7 +186,7 @@ function HomeIcon(props) {
 }
 
 
-function PackageIcon(props) {
+function PackageIcon(props: any) {
   return (
     <svg
       {...props}
@@ -209,7 +209,7 @@ function PackageIcon(props) {
 }
 
 
-function ActivityIcon(props) {
+function ActivityIcon(props: any) {
   return (
     <svg
       {...props}
@@ -229,7 +229,7 @@ function ActivityIcon(props) {
 }
 
 
-function BotIcon(props) {
+function BotIcon(props: any) {
   return (
     <svg
       {...props}
@@ -254,7 +254,7 @@ function BotIcon(props) {
 }
 
 
-function DataArchiveIcon(props) {
+function DataArchiveIcon(props: any) {
   return (
 <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M9 12C9 11.5341 9 11.3011 9.07612 11.1173C9.17761 10.8723 9.37229 10.6776 9.61732 10.5761C9.80109 10.5 10.0341 10.5 10.5 10.5H13.5C13.9659 10.5 14.1989 10.5 14.3827 10.5761C14.6277 10.6776 14.8224 10.8723 14.9239 11.1173C15 11.3011 15 11.5341 15 12C15 12.4659 15 12.6989 14.9239 12.8827C14.8224 13.1277 14.6277 13.3224 14.3827 13.4239C14.1989 13.5 13.9659 13.5 13.5 13.5H10.5C10.0341 13.5 9.80109 13.5 9.61732 13.4239C9.37229 13.3224 9.17761 13.1277 9.07612 12.8827C9 12.6989 9 12.4659 9 12Z" stroke="#1C274C" stroke-width="1.5"/>
@@ -265,7 +265,7 @@ function DataArchiveIcon(props) {
 }
 
 
-function InfoGencludeIcon(props) {
+function InfoGencludeIcon(props: any) {
   return (
 <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M12 17V11" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
@@ -276,7 +276,7 @@ function InfoGencludeIcon(props) {
 }
 
 
-function SearchIcon(props) {
+function SearchIcon(props: any) {
   return (
     <svg
       {...props}
