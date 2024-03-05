@@ -2,9 +2,8 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { DropdownMenuTrigger, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuItem, DropdownMenuContent, DropdownMenu } from "@/components/ui/dropdown-menu"
 import { Input } from "@/components/ui/input"
-import { Nav } from "@/components/component/nav"
 
-export function Chat() {
+export function Error() {
   return (
     <div key="1" className="grid min-h-screen w-full lg:grid-cols-[280px_1fr]">
       <div className="hidden border-r bg-gray-100/40 lg:block dark:bg-gray-800/40">
@@ -64,8 +63,6 @@ export function Chat() {
                 About Genclude
               </Link>
             </nav>
-
-            <Nav />
           </div>
         </div>
       </div>
@@ -76,7 +73,7 @@ export function Chat() {
             <span className="sr-only">Home</span>
           </Link>
           <div className="flex-1">
-            <h1 className="font-semibold text-lg">Ask AI</h1>
+            <h1 className="font-semibold text-lg">Not Found</h1>
           </div>
           <Button className="rounded-full border-gray-200 w-8 h-8 dark:border-gray-800" size="icon">
             <SearchIcon className="w-4 h-4" />
@@ -110,13 +107,8 @@ export function Chat() {
           </DropdownMenu>
         </header>
         <main className="flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-6">
-          <form className="grid gap-4 md:gap-6">
-            <Input id="question" placeholder="Type your question here..." />
-            <Button>Ask AI</Button>
-          </form>
           <div className="p-4">
-            <h3 className="font-semibold">AI Response:</h3>
-            <p className="text-gray-500 dark:text-gray-400">Your AI response will appear here.</p>
+            <h3 className="font-semibold">Sometimes things break, but we’ll try to fix it as soon as possible! Make sure to double check the URL.</h3>
           </div>
         </main>
       </div>
